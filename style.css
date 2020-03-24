@@ -1,0 +1,159 @@
+body { background: #1a1a1a; }
+
+div.main {
+    width:950px;
+    height:898px;
+    color: #e2e2e2;
+    font-size:16px;
+    margin-left:10px;
+    background:#121212;
+    border-radius: 7px 7px 0px 0px;
+    position:relative;
+}
+/* window */
+div.window {
+    height:22px;
+    background: #2e2e2e;
+    border-radius: 7px 7px 0px 0px;
+    box-shadow:   inset 0 0 5px #222;
+}
+
+div.window > div {
+    text-align:center;
+    padding-top:2px;
+}
+
+div.window > div.menu {
+    float:left;
+    font-size: 20px;
+    padding-left:10px;
+    transform: rotate(-30deg);
+}
+
+div.window > div.title { float: center; }
+
+div.window > div.items {
+    float: right;
+    padding-right:10px;
+    font-size:14px;
+}
+
+
+/* body */
+div.body {
+    position:relative;
+    height:825px;
+}
+
+div.sideline {
+    margin-top:1px;
+    border-right :9px solid #3f3f3f;
+    border-left :9px solid #3f3f3f;
+}
+
+div.body > textarea.editor {
+    border-style:none;
+    background:Transparent;
+    color:#7aa;
+    overflow: auto;
+    position:absolute;
+    left:0px;
+    height:821px;
+    width:100%;
+    font-size:19px;
+    resize: none;
+}
+
+div.body > textarea.editor::-moz-selection {
+    background:#222;
+    color: #fff;
+    text-shadow: none;
+}
+
+div.body > textarea.editor::selection {
+    background:#222;
+    color: #fff;
+    text-shadow: none;
+}
+
+div.powerline {
+    background: #444;
+    padding:0 10px 0 10px;
+    position:relative;
+    font-size: 0;
+}
+
+div.powerline > div {
+    display: inline-block;
+    font-size:19px;
+}
+
+div.section1 {
+    margin-right:40px;
+}
+
+div.section2 {
+    background:#212121;
+    margin:0;
+    padding:0;
+}
+
+div.section2> div.arrow1 {
+    position:absolute;
+    border-top:11px solid Transparent;
+    border-bottom:12px solid Transparent;
+    border-left:10px solid #444;
+}
+
+div.section2> div.arrow2 {
+    position:absolute;
+    display: inline;
+    border-top:11px solid Transparent;
+    border-bottom:12px solid Transparent;
+    border-left:10px solid #212121;
+}
+
+div.section2 > img {
+    position:absolute;
+    display: inline;
+    margin-left:20px;
+}
+
+div.section2 > img.web-mode {
+    margin-left:50px;
+
+}
+
+div.section3 {
+    width:360px;
+    background:#666;
+}
+
+div.section4 {
+    background:#212121;
+}
+
+div.section4> div.arrow1 {
+    position:absolute;
+    display: inline;
+    border-top:11px solid #666;
+    border-bottom:12px solid #666;
+    border-right:10px solid Transparent;
+}
+
+div.section4> div.arrow2 {
+    position:absolute;
+    display: inline;
+    border-top:11px solid #212121;
+    border-bottom:12px solid #212121;
+    border-right:10px solid Transparent;
+}
+div.section5 {
+    margin-left:20px;
+    font-family:monospace;
+}
+div.minibuffer {
+    height:25px;
+    margin:0;
+    padding:0;
+}
